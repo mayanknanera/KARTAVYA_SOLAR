@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#F8FAFC"/>
+  <!-- Ground -->
+  <rect x="0" y="250" width="400" height="50" fill="#D1FAE5"/>
+  <!-- Solar panel on mount -->
+  <rect x="80" y="110" width="160" height="110" rx="5" fill="#1E3A5F" stroke="#3B82F6" stroke-width="2"/>
+  <line x1="160" y1="110" x2="160" y2="220" stroke="#60A5FA" stroke-width="1.5"/>
+  <line x1="80"  y1="165" x2="240" y2="165" stroke="#60A5FA" stroke-width="1.5"/>
+  <line x1="120" y1="110" x2="120" y2="220" stroke="#60A5FA" stroke-width="0.8"/>
+  <line x1="200" y1="110" x2="200" y2="220" stroke="#60A5FA" stroke-width="0.8"/>
+  <line x1="80"  y1="138" x2="240" y2="138" stroke="#60A5FA" stroke-width="0.8"/>
+  <line x1="80"  y1="192" x2="240" y2="192" stroke="#60A5FA" stroke-width="0.8"/>
+  <!-- Mounting pole -->
+  <rect x="152" y="220" width="16" height="30" fill="#94A3B8"/>
+  <!-- Performance indicator on panel -->
+  <circle cx="200" cy="138" r="14" fill="#22C55E" opacity="0.9"/>
+  <g stroke="white" stroke-width="2" stroke-linecap="round">
+    <line x1="194" y1="138" x2="197" y2="142"/>
+    <line x1="197" y1="142" x2="206" y2="133"/>
+  </g>
+  <!-- Technician person -->
+  <!-- Head -->
+  <circle cx="310" cy="130" r="24" fill="#FED7AA"/>
+  <!-- Hard hat -->
+  <ellipse cx="310" cy="116" rx="26" ry="12" fill="#F97316"/>
+  <rect x="284" y="116" width="52" height="8" rx="2" fill="#EA580C"/>
+  <!-- Body in work vest -->
+  <rect x="286" y="154" width="48" height="60" rx="8" fill="#F97316"/>
+  <!-- Safety stripes -->
+  <rect x="286" y="168" width="48" height="6" fill="#FCD34D"/>
+  <rect x="286" y="188" width="48" height="6" fill="#FCD34D"/>
+  <!-- Wrench -->
+  <rect x="256" y="150" width="10" height="40" rx="5" fill="#475569" transform="rotate(-30 256 150)"/>
+  <circle cx="250" cy="148" r="10" fill="#475569"/>
+  <circle cx="250" cy="148" r="5" fill="#F8FAFC"/>
+  <!-- Toolbox -->
+  <rect x="330" y="218" width="54" height="34" rx="6" fill="#334155"/>
+  <rect x="330" y="218" width="54" height="10" rx="6" fill="#475569"/>
+  <rect x="347" y="214" width="20" height="8" rx="4" fill="#334155"/>
+  <!-- Tools in box -->
+  <rect x="338" y="232" width="6" height="14" rx="2" fill="#94A3B8"/>
+  <rect x="348" y="232" width="6" height="14" rx="2" fill="#94A3B8"/>
+  <rect x="358" y="228" width="6" height="18" rx="2" fill="#94A3B8"/>
+  <!-- Cable running from panel -->
+  <path d="M 240 165 Q 270 165 280 180 Q 290 195 290 214" stroke="#64748B" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Monitoring tablet -->
+  <rect x="190" y="238" width="80" height="50" rx="6" fill="#1E293B"/>
+  <rect x="195" y="242" width="70" height="40" rx="3" fill="#0F172A"/>
+  <!-- Graph on tablet -->
+  <polyline points="200,272 210,262 220,266 230,254 240,258 250,248 260,252" stroke="#22C55E" stroke-width="2" fill="none"/>
+  <!-- Uptime badge -->
+  <rect x="62" y="232" width="60" height="22" rx="11" fill="#22C55E"/>
+  <text x="92" y="247" text-anchor="middle" font-size="9" fill="white" font-weight="bold" font-family="sans-serif">99% Uptime</text>
+</svg>
