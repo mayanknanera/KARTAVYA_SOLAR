@@ -2,6 +2,10 @@
 
 A modern, responsive website for Karatvya Solar, a leading provider of solar energy solutions. This project showcases the company's services, projects, and information in an interactive and user-friendly manner.
 
+## Live Demo
+
+Check out the live version of the website: [https://kartavya-solar.vercel.app/](https://kartavya-solar.vercel.app/)
+
 ## Features
 
 - **Home Page**: Hero section with company introduction and call-to-action
